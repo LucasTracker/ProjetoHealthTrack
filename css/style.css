@@ -1,0 +1,116 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+}
+
+header {
+    margin-bottom: 15rem;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    padding: .5rem;
+}
+h5{
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Carter One', sans-serif;
+}
+li{
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+li{
+    font-size: 3.5rem;
+}
+
+p {
+    font-size: 2rem;
+    text-indent: 1.5rem;
+}
+.title{
+    color: #fff;
+    font-family: 'Carter One', sans-serif;
+    margin-left: 1rem;
+}
+
+
+.container-fluid.container-design {
+  margin-top: 2rem;
+  padding: 0% 5%;
+  margin-bottom: 3%;
+}
+
+
+/* NavBar */
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+}
+
+.title-nav{
+    font-size: 2.5rem;
+    font-family: 'Poppins',sans-serif;
+    margin-right: 1rem;
+}
+#ancoraNav {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+}
+/*Sections*/
+.topico{
+    padding: 1rem;
+}
+.topico h1,h2{
+    font-size: 1.8rem;
+}
+
+
+/*Container*/
+
+.container.container-login {
+    margin-bottom: 3rem;
+    border: solid 1px black;
+    box-shadow: 1px 1px 1px gray;
+    background: #031727;
+}
+
+.container-login{
+    padding: 1.5rem;
+}
+
+.container.container-contato{
+    background: #031727;
+    padding: 2rem;
+}
+
+.container-contato input, textarea{
+    margin-bottom: 1rem;
+}
+
+input{
+    margin-bottom: 1rem;
+    height: 4rem;
+}
+
+input::placeholder, textarea::placeholder{
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+textarea{
+    height: 15rem;
+    resize: none;
+}
+
+.btn{
+    font-size: 2rem;
+}

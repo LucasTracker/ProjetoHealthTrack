@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthTrack</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!--JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- NAVBAR-->
+    <header>
+        <nav class="navbar  navbar-expand-md navbar-expand-lg fixed-top navbar-dark bg-dark" id="navbar">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/HealthLogo.png" width="80" height="80" alt="Logo Health Track">
+                    <span class="navbar-expand-sm title-nav">Health Track</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                    aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-items">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="quem somos.html" class="nav-link">Quem Somos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active" aria-current="page">Portal Do Cliente</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="contato.html" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container col-md-6 container-login">
+            <h2 class="col-md-12 col-lg-12">Portal do Cliente - Login</h2>
+            <form action="#">
+                <div class="form-row">
+                    <div class="form-group col-md-12 col-lg-12">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control p-3" id="inputEmail4" placeholder="example@email.com.br">
+                    </div>
+                    <div class="form-group col-md-12 col-lg-12">
+                        <label for="inputPassword4">Senha</label>
+                        <input type="password" class="form-control p-3" id="inputPassword4" placeholder="**********">
+                    </div>
+                </div>
+                <button type="submit" class="btn col-lg-12 p-3 btn-primary" id="button">Entrar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
